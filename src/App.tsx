@@ -1,18 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Box } from '@chakra-ui/react'
 import './App.css'
 import HeroSection from './components/Hero/HeroSection'
 import Services from './components/Services/Index'
 import Skills from './components/Skills/Index';
-
+import Footer from './components/footer'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="">
       <HeroSection />
-      <Services />
-      <Skills />
+      <Box position="relative" zIndex={100} paddingTop="100vh">
+        <Services />
+        <Skills />
+        <Footer />
+      </Box>
     </div>
   )
 }

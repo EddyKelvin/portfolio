@@ -7,19 +7,19 @@ export const services = {
   subtitle: "WHAT I OFFER",
   service_content: [
     {
-      title: "Web Development",
-      para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+      title: "Frontend Web Development",
+      para: `I'm the artist of the web, designing pages that are beautiful, functional, and make you wonder why you ever thought Comic Sans was a good idea.`,
       logo: services_logo1,
     },
     {
-      title: "ui / ux DESIGNING",
-      para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-      logo: services_logo2,
+      title: "Backend Web Development",
+      para: `I'm the wizard behind the curtain, pulling levers and pushing buttons to make your website run like a well-oiled machine. And no, I don't wear a pointy hat`,
+      logo: services_logo3,
     },
     {
-      title: "PhotoShop Editing",
-      para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-      logo: services_logo3,
+      title: "ui / ux DESIGNING",
+      para: `I help you understand your users' needs and design a website that meets them. Think of me as a matchmaker, but instead of setting up people, I set up people and websites.`,
+      logo: services_logo2,
     },
   ],
 };
