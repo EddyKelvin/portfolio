@@ -32,7 +32,7 @@ export default function HeroSection(): JSX.Element {
                                 loop
                             /></Box>
                         </Text>
-                        <Text color="white" fontWeight="300" fontSize={{ base: "1.5rem", md: "2rem" }}>I enjoy building and designing for the web</Text>
+                        <Text color="white" fontWeight="300" fontSize={{ base: "1.5rem", md: "2rem" }}>I enjoy building and designing For the Web and Mobile</Text>
                         {/* <p className="pt-3">
                             <a className="btn btn-primary btn js-scroll px-4" href="#work" role="button">
                                 View My Work
